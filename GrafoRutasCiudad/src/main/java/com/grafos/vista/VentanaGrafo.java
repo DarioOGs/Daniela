@@ -13,6 +13,6 @@ public class VentanaGrafo extends JFrame {
         add(new PanelGrafo(grafo));
         pack();
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 }
